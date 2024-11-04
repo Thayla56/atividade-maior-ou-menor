@@ -9,4 +9,6 @@ function verificarNota() {
     } else {
         document.getElementById('resultado').innerText = `Você reprovou!Média: ${media.toFixed(2)}`;
     }
+    setInterval(atualizarRelogio, 1000);
+
 }
