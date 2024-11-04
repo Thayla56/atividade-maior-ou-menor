@@ -5,8 +5,8 @@ function verificarNota() {
     const media = (nota1 + nota2 + nota3) / 3;
 
     if (media >= 60) {
-        document.getElementById('resultado').innerText = `Você passou! Média: ${media.toFixed(2)}`;
+        document.getElementById('resultado').innerText = `Você passou! Média: 60>0 ${media.toFixed(2)}`;
     } else {
-        document.getElementById('resultado').innerText = `Você reprovou! Média: ${media.toFixed(2)}`;
+        document.getElementById('resultado').innerText = `Você reprovou! Média: 60<0 ${media.toFixed(2)}`;
     }
 }
