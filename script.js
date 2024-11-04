@@ -8,7 +8,7 @@ function verificarNota() {
         document.getElementById('resultado').innerText = `Você passou!Média: ${media.toFixed(2)}`;
     } else {
         document.getElementById('resultado').innerText = `Você reprovou!Média: ${media.toFixed(2)}`;
-    setInterval(atualizarRelogio, 500);
+    setInterval(atualizarRelogio, 5000);
 }
     
 }
