@@ -4,11 +4,7 @@ body {
 
 .bloco {
     margin-bottom: 20px;
-}
+background-color: rgb(0, 132, 255);}
 
-footer{background-color: rgb(0, 132, 255);}
 
-#resultado{
-    font-size: 24px;
-margin-bottom: 20px;
-}
+
